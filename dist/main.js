@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(true);\n// Module\nexports.push([module.i, \".test {\\n  font-size: 3rem;\\n}\", \"\",{\"version\":3,\"sources\":[\"C:/Users/y-okayama/Documents/dev/react-project/react_typescript_webpack/src/scss/index.scss\",\"index.scss\"],\"names\":[],\"mappings\":\"AAAA;EACE,eAAA;ACCF\",\"file\":\"index.scss\",\"sourcesContent\":[\".test {\\r\\n  font-size: 3rem;\\r\\n}\\r\\n\",\".test {\\n  font-size: 3rem;\\n}\"]}]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/scss/index.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js??ref--5-2");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(true);\n// Module\nexports.push([module.i, \".test {\\n  font-size: 3rem;\\n}\", \"\",{\"version\":3,\"sources\":[\"/Users/yujiokayama/dev/react-project/webpack-typescript-react-template/src/scss/index.scss\",\"index.scss\"],\"names\":[],\"mappings\":\"AAAA;EACE,eAAA;ACCF\",\"file\":\"index.scss\",\"sourcesContent\":[\".test {\\n  font-size: 3rem;\\n}\\n\",\".test {\\n  font-size: 3rem;\\n}\"]}]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/scss/index.scss?./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/sass-loader/dist/cjs.js??ref--5-2");
 
 /***/ }),
 
@@ -253,6 +253,18 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 
 /***/ }),
 
+/***/ "./src/Sub.tsx":
+/*!*********************!*\
+  !*** ./src/Sub.tsx ***!
+  \*********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nvar SubComponent = function (props) {\n    return (react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](react__WEBPACK_IMPORTED_MODULE_0__[\"Fragment\"], null,\n        react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"h2\", null,\n            props.name,\n            \"\\u3067\\u3059\")));\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (SubComponent);\n\n\n//# sourceURL=webpack:///./src/Sub.tsx?");
+
+/***/ }),
+
 /***/ "./src/main.tsx":
 /*!**********************!*\
   !*** ./src/main.tsx ***!
@@ -261,7 +273,7 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _sub_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./sub-component */ \"./src/sub-component.tsx\");\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scss/index.scss */ \"./src/scss/index.scss\");\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_scss_index_scss__WEBPACK_IMPORTED_MODULE_3__);\nvar __extends = (undefined && undefined.__extends) || (function () {\r\n    var extendStatics = function (d, b) {\r\n        extendStatics = Object.setPrototypeOf ||\r\n            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n        return extendStatics(d, b);\r\n    };\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\n\r\n\r\n\r\n\r\nvar App = /** @class */ (function (_super) {\r\n    __extends(App, _super);\r\n    function App() {\r\n        return _super !== null && _super.apply(this, arguments) || this;\r\n    }\r\n    App.prototype.render = function () {\r\n        return (react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"div\", null,\r\n            react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"h1\", { className: \"test\" }, \"Hello React!\"),\r\n            react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](_sub_component__WEBPACK_IMPORTED_MODULE_2__[\"SubComponent\"], { name: \"My Counter for TypeScript\" })));\r\n    };\r\n    return App;\r\n}(react__WEBPACK_IMPORTED_MODULE_0__[\"Component\"]));\r\nreact_dom__WEBPACK_IMPORTED_MODULE_1__[\"render\"](react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](App, null), document.querySelector('#app'));\r\n\n\n//# sourceURL=webpack:///./src/main.tsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _Sub__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Sub */ \"./src/Sub.tsx\");\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scss/index.scss */ \"./src/scss/index.scss\");\n/* harmony import */ var _scss_index_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_scss_index_scss__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nvar App = function () {\n    return (react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](react__WEBPACK_IMPORTED_MODULE_0__[\"Fragment\"], null,\n        react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"h1\", null, \"React Template\"),\n        react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](_Sub__WEBPACK_IMPORTED_MODULE_2__[\"default\"], { name: 'Sub' })));\n};\nreact_dom__WEBPACK_IMPORTED_MODULE_1__[\"render\"](react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](App, null), document.querySelector(\"#app\"));\n\n\n//# sourceURL=webpack:///./src/main.tsx?");
 
 /***/ }),
 
@@ -273,18 +285,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../node_modules/sass-loader/dist/cjs.js??ref--5-2!./index.scss */ \"./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js?!./src/scss/index.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/scss/index.scss?");
-
-/***/ }),
-
-/***/ "./src/sub-component.tsx":
-/*!*******************************!*\
-  !*** ./src/sub-component.tsx ***!
-  \*******************************/
-/*! exports provided: SubComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"SubComponent\", function() { return SubComponent; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\nvar __extends = (undefined && undefined.__extends) || (function () {\r\n    var extendStatics = function (d, b) {\r\n        extendStatics = Object.setPrototypeOf ||\r\n            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||\r\n            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };\r\n        return extendStatics(d, b);\r\n    };\r\n    return function (d, b) {\r\n        extendStatics(d, b);\r\n        function __() { this.constructor = d; }\r\n        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());\r\n    };\r\n})();\r\n\r\nvar SubComponent = /** @class */ (function (_super) {\r\n    __extends(SubComponent, _super);\r\n    function SubComponent(props) {\r\n        var _this = _super.call(this, props) || this;\r\n        _this.state = {\r\n            count: 0\r\n        };\r\n        return _this;\r\n    }\r\n    SubComponent.prototype.handleClick = function () {\r\n        console.log('クリックされました');\r\n        this.setState({\r\n            count: this.state.count + 1\r\n        });\r\n    };\r\n    SubComponent.prototype.render = function () {\r\n        return (react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"div\", null,\r\n            react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"h2\", null, this.props.name),\r\n            react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"div\", null, this.state.count),\r\n            react__WEBPACK_IMPORTED_MODULE_0__[\"createElement\"](\"button\", { onClick: this.handleClick.bind(this) }, \"Add +1\")));\r\n    };\r\n    return SubComponent;\r\n}(react__WEBPACK_IMPORTED_MODULE_0__[\"Component\"]));\r\n\r\n\n\n//# sourceURL=webpack:///./src/sub-component.tsx?");
 
 /***/ })
 
