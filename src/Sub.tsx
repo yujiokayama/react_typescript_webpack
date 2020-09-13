@@ -1,4 +1,5 @@
 import * as React from "react";
+import classNames from "classnames";
 
 type Props = {
   name: string;
@@ -7,7 +8,7 @@ type Props = {
 const SubComponent: React.FC<Props> = (props) => {
   return (
     <>
-      <h2>{props.name}です</h2>
+      <h2>{props.name} component</h2>
     </>
   );
 };
